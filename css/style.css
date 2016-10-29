@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'helveticaneuecyrthin';
+    src: url('fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneuecyr-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body{
+	height: 1000px;
+	width: 100%;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.wrapper{
+	width: 100%;
+	height: 1000px;
+}
+
+header{
+	width: 1349px;
+	height: 35px;
+	background-color: #074e8c;
+	overflow: hidden;
+	clear: both;
+}
+
+.first{
+	float: right;
+	
+}
+
+.second{
+	float: right;
+
+}
+
+.second:before{
+	content: url(../img/stick.png);
+	
+
+}
+
+.first li{
+	height: 35px;
+	float: right;
+	color: #4f9fd8;
+	font-family: helveticaneuecyrthin, tahoma;
+
+	padding-top: 7px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.first li:hover{
+	background-color: #4f9fd8;
+	color: white;
+	cursor: pointer;
+}
+   
+
+.second li, a{
+	float: right;
+	color: white;
+
+}
+
+.second li{
+	height: 35px;
+	float: right;
+	color: white;
+	font-family: helveticaneuecyrthin, tahoma;
+	padding-top: 7px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.second li:hover{
+    background-color: #4f9fd8;
+	color: white;
+	cursor: pointer;
+}
+
+.second li span:hover{
+	text-decoration: underline;
+}
+
+.conteiner{
+	width: 100%;
+	height: 96%;
+	display: flex;
+	justify-content:center;
+    align-items:center;
+
+}
+
+.cadastre{
+	height: 615px;
+	width: 550px;
+	background-color: rgba(16,16,16, 0.5);
+	text-align: center;
+	font-family: helveticaneuecyrthin, tahoma;
+}
+
+.cadastre .cad{
+	text-align: center;
+	border-bottom: 1px solid grey;
+	color: white;
+	font-family: helveticaneuecyrthin, tahoma;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+button{
+	background-image: url(../img/button.png);
+	background-size: cover;
+	height: 35px;
+	width: 275px;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+
+	}
+button:focus{
+	outline: none;
+}
+
+.cadastre img{
+	margin-top: 30px;
+}
+
+
+.cadastre .text{
+	height: 30px;
+	width: 275px;
+	margin-top: 15px;
+	background-color: rgba(15,15,15, 0.9);
+	border: none;
+	color: white;
+	font-family: helveticaneuecyrthin, tahoma;
+	font-size: 12px;
+	
+} 
+
+.cadastre .text:focus{
+	outline: none;
+	background-color: #1b5288;
+	-webkit-box-shadow: -1px 0px 12px 2px rgba(105,155,205,1);
+-moz-box-shadow: -1px 0px 12px 2px rgba(105,155,205,1);
+box-shadow: -1px 0px 12px 2px rgba(105,155,205,1);
+}
+.cadastre input, span{
+  margin-top: 15px;
+
+}
+
+.cadastre span{
+	color: white;
+	font-size: 12px;
+}
+
+.cadastre .sub{
+	color: white;
+	background-color: #398bcc;
+	font-family: helveticaneuecyrthin, tahoma;
+	font-size: 15px;
+	border-radius: 6px;
+	border: none;
+	padding: 12px 10px 12px 10px ;
+	cursor: pointer;
+}
+
+.cadastre p{
+	color: grey;
+	margin-top: 10px;
+	font-family: tahoma;
+	font-size: 10px;
+}
+
+::-webkit-input-placeholder { 
+	color: white; 
+	padding-left: 20px;
+	
+
+}
+:focus::-webkit-input-placeholder {color: transparent}
+
